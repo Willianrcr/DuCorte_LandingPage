@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(3, 3, 3);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(241, 226, 9);
+    transition: 0.3 all;
+}
+
+
+#Agendamento-btn{
+    border: 2px solid rgb(250, 250, 247);
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#Agendamento-btn:hover{
+    border: 2px solid rgb(250, 250, 247);
+    background-color: rgb(250, 250, 247);
+    color: white;
+
+}
+Li{
+    display: inline-block;
+    margin: 20px;
+}
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+
+}
+
+h2{
+    font-size: 50px;
+    line-height: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px 50px 0 0;
+    margin-bottom: 80px;
+}
+
+span{
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 56px;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    line-height: 10px;
+}
+
+img{
+    width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+
+}
+
+.cservicos{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.servico{
+    float: left ;
+    margin-left: 20px;
+    padding: 10px 90px;
+}
+
+
+.csobre{
+    margin-top: 550px;
+    margin-bottom: 90px;
+
+}
+
+.textsobre {
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 5% 10%;
+    margin-left: -110px; 
+}
+
+.clocalizacao {
+    max-width: 100%;
+}
+
+.map-text-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.map {
+    flex: 1;
+}
+
+.text-span {
+    font-size: 35px;
+    flex: 1;
+    margin-left: 100px; 
+}
+
